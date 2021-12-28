@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 命令行执行
 ```
-python train.py --net seresnet18 -gpu
+python train.py -net seresnet18 -gpu
 ```
 
 
@@ -22,7 +22,7 @@ python train.py --net seresnet18 -gpu
 命令行执行
 
 ```
-python test.py --net seresnet18 -weights path_to_vgg16_weights_file
+python test.py -net seresnet18 -weights path_to_seresnet18_weights_file
 ```
 
 
